@@ -27,6 +27,8 @@ h3 {
 }
 .prim {
   color: #ff8800;
+  margin-bottom: 10px;
+  display: block;
 }
 .primary-bcg {
   background-color: #ff8800;
@@ -55,7 +57,7 @@ ul {
 ul.features li {
   position: relative;
   padding-left: 30px; /* Adjust as needed */
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 
 ul.features li::before {
@@ -66,6 +68,10 @@ ul.features li::before {
   top: 50%;
   transform: translateY(-55%);
   font-size: 40px; /* Adjust bullet size as needed */
+}
+
+.feat .img-fluid {
+  width: 55px;
 }
 
 @media (max-width: 575.98px) {
